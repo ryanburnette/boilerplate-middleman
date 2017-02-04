@@ -1,0 +1,15 @@
+=container-outer
+  width: 100%
+=container-inner
+  margin-right: 1em
+  margin-left: 1em
+=container-narrow
+  max-width: em(736)
+  +container-inner
+  +min-screen(em(736 + 16 + 16))
+    margin-right: auto
+    margin-left: auto
+=narrow-container
+  +container-narrow
+=push-bottom
+  margin-bottom: 4em

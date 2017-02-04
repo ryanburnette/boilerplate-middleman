@@ -1,0 +1,24 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+
+    <%= _partial "meta" %>
+
+    <%= stylesheet_link_tag "site" %>
+
+    <%= javascript_include_tag  "modernizr" %>
+
+  </head>
+
+  <body class="<%= page_classes %>">
+
+    <%= _slim "header" %>
+
+    <%= yield %>
+
+    <%= _slim "footer" %>
+
+    <%= javascript_include_tag  "site" %>
+
+  </body>
+</html>
