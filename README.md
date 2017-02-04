@@ -2,6 +2,28 @@
 
 This is a boilerplate Middleman project.
 
+## Middleman
+
+### Helpers
+
+Keep the helpers all organized in the `./helpers` directory. Modules that
+follow the `FooHelpers` naming convention will be automatically loaded.
+
+### Data
+
+The `./data` directory is pretty useful. Make a file like this:
+
+```yml
+# ./data/foo.yml
+bar: 1
+```
+
+Then grab the data like this:
+
+```ruby
+data.foo.bar # 1
+```
+
 ## Rakefile
 
 ## Bower
