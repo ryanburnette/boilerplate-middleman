@@ -1,0 +1,14 @@
+{
+  "minify": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/svg",
+    "test/css/lastchild",
+    "test/css/transforms",
+    "test/css/transforms3d",
+    "test/svg/asimg",
+    "test/touchevents"
+  ]
+}
