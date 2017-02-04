@@ -4,6 +4,8 @@ This is a boilerplate Middleman project.
 
 ## Middleman
 
+It's [Middleman](https://middlemanapp.com/basics/install/). Yep.
+
 ### Helpers
 
 Keep the helpers all organized in the `./helpers` directory. Modules that
