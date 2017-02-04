@@ -9,6 +9,12 @@ configure :development do
   activate :livereload, { :host => "127.0.0.1" }
 end
 
+activate :blog do |blog|
+  blog.layout    = "blog-post"
+  blog.prefix    = "blog"
+  blog.permalink = "blog/{title}.html"
+end
+
 configure :build do
   set :debug_assets, true
   activate :minify_css
