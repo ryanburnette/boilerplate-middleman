@@ -2,6 +2,8 @@
 
 This is a boilerplate Middleman project.
 
+## Rakefile
+
 ## Bower
 
 [Bower](http://bower.io) for managing front-end packages. Run `bower install`
