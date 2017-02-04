@@ -1,0 +1,21 @@
+{
+  "name": "boilerplate-middleman",
+  "private": true,
+  "dependencies": {
+    "bourbon": "~4.2.7",
+    "neat": "~1.7.4",
+    "omega-reset-for-bourbon-neat": "https://github.com/joshfry/omega-reset-for-bourbon-neat.git",
+    "decently-smart-target": "0.1.2",
+    "sass-mediaqueries": "~1.6.1",
+    "fastclick": "~1.0.3",
+    "jquery": "~3.1.1",
+    "jquery-throttle-debounce": "git@github.com:cowboy/jquery-throttle-debounce.git",
+    "fitvids": "~1.1.0",
+    "imagesloaded": "~4.1.0",
+    "matchHeight": "matchheight#~0.7.0",
+    "jquery-form": "^3.46.0",
+    "normalize-css": "normalize.css#^4.1.1",
+    "flickity": "^2.0.5",
+    "video.js": "^5.16.0"
+  }
+}
