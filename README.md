@@ -6,6 +6,10 @@ This is a boilerplate Middleman project.
 
 It's [Middleman](https://middlemanapp.com/basics/install/). Yep.
 
+### Middleman Blog
+
+It's all set up to be a blog too.
+
 ### Helpers
 
 Keep the helpers all organized in the `./helpers` directory. Modules that
