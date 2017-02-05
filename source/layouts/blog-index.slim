@@ -3,4 +3,4 @@
     .blog-index
       h2 Blog Posts
       - blog.articles.each do |b|
-        a href=b.url Foo
+        a href=b.url = b.title
