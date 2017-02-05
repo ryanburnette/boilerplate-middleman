@@ -17,9 +17,11 @@ activate :blog do |blog|
   blog.permalink = "{title}.html"
 end
 
-configure :build do
-  set :debug_assets, true
-  activate :minify_css
-  activate :minify_javascript
-  activate :asset_hash, :ignore => ["bower_components"]
+if ENV["BUILD"]
+  configure :build do
+    set :debug_assets, true
+    activate :minify_css
+    activate :minify_javascript
+    activate :asset_hash, :ignore => ["bower_components"]
+  end
 end
