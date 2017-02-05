@@ -14,7 +14,7 @@ end
 activate :blog do |blog|
   blog.layout    = "blog-post"
   blog.prefix    = "blog"
-  blog.permalink = "blog/{title}.html"
+  blog.permalink = "{title}.html"
 end
 
 configure :build do
