@@ -1,10 +1,11 @@
 module SeoHelpers
+  def canonical_url_prefix
+    return "http://localhost:4567" if development?
+    "http://www.#{data.site.canonical_domain}"
+  end
+
   def canonical_url
-    if development?
-      "http://localhost:4567#{current_page.url || "/"}"
-    else
-      "https://www.#{data.site.canonical_domain}#{current_page.url || "/"}"
-    end
+    "#{canonical_url_prefix}/#{current_page.url || "/"}"
   end
 
   def meta_description

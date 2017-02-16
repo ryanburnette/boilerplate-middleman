@@ -7,5 +7,5 @@
     <meta property="og:site_name" content="<%= site_name %>"/>
     <meta property="og:title" content="<%= current_page.data.title %>"/>
     <% if meta_description %><meta property="og:description" content="<%= meta_description %>"/><% end %>
-    <link rel="favicon shortcut icon" type="image/png" href="/assets/images/favicon.png">
-    <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+    <link rel="favicon shortcut icon" type="image/png" href="<%= canonical_url_prefix %>/images/favicon.png">
+    <link rel="apple-touch-icon" href="<%= canonical_url_prefix %>/images/favicon.png">
