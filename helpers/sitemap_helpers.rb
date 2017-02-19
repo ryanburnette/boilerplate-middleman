@@ -11,6 +11,7 @@ module SitemapHelpers
       .reject { |r| r.destination_path.end_with?(".js") }
       .reject { |r| r.destination_path.end_with?(".eot") }
       .reject { |r| r.destination_path.end_with?(".otf") }
+      .reject { |r| r.destination_path.end_with?(".jpg") }
       .reject { |r| r.destination_path.end_with?(".gif") }
       .reject { |r| r.destination_path.end_with?(".svg") }
       .reject { |r| r.destination_path.end_with?(".ttf") }
